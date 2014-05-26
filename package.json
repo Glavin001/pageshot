@@ -1,0 +1,39 @@
+{
+  "name": "pageshot",
+  "version": "0.0.0",
+  "main": "lib/pageshot.js",
+  "description": "Take screenshots triggered by browser-side JavaScript.",
+  "homepage": "https://github.com/Glavin001/pageshot",
+  "bugs": "https://github.com/Glavin001/pageshot/issues",
+  "author": {
+    "name": "Glavin Wiechert",
+    "email": "glavin.wiechert@gmail.com",
+    "url": "https://github.com/Glavin001"
+  },
+  "main": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Glavin001/pageshot"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0",
+    "express": "^4.3.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "phantom": "^0.6.3",
+    "commander": "^2.2.0"
+  }
+}

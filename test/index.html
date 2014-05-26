@@ -1,0 +1,25 @@
+<html>
+<head>
+
+</head>
+<body>
+  <div id="timer"></div>
+  <script>
+    window.onPageshotReady = function() {
+      setInterval(function() {
+        var el = document.getElementById('timer');
+        el.innerHTML = (new Date());
+
+        var p = window.pageshot;
+        p._pendingShot = true;
+      }, 1000);
+
+      setTimeout(function() {
+        var p = window.pageshot;
+        p._quit = true;
+      }, 10000);
+
+    };
+  </script>
+</body>
+</html>
