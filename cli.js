@@ -11,6 +11,4 @@ program
   .option('--output <dir>', 'Output directory')
   .parse(process.argv);
 
-pageshot(program.url, program.output, function() {
-    process.exit(0);
-});
+pageshot(program.url, program.output);

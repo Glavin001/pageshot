@@ -1,7 +1,7 @@
 {
   "name": "pageshot",
   "version": "0.0.0",
-  "main": "lib/pageshot.js",
+  "main": "cli.js",
   "description": "Take screenshots triggered by browser-side JavaScript.",
   "homepage": "https://github.com/Glavin001/pageshot",
   "bugs": "https://github.com/Glavin001/pageshot/issues",
@@ -10,7 +10,6 @@
     "email": "glavin.wiechert@gmail.com",
     "url": "https://github.com/Glavin001"
   },
-  "main": "cli.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Glavin001/pageshot"
@@ -33,7 +32,7 @@
     "test": "grunt"
   },
   "dependencies": {
-    "phantom": "^0.6.3",
-    "commander": "^2.2.0"
+    "commander": "^2.2.0",
+    "phantom": "git+https://github.com/Glavin001/phantomjs-node.git"
   }
 }
