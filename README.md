@@ -1,4 +1,4 @@
-# pageshot [![Build Status](https://secure.travis-ci.org/Glavin001/pageshot.png?branch=master)](http://travis-ci.org/Glavin001/pageshot)
+# [Pageshot](https://github.com/Glavin001/pageshot) [![Build Status](https://secure.travis-ci.org/Glavin001/pageshot.png?branch=master)](http://travis-ci.org/Glavin001/pageshot)
 
 > Take screenshots triggered by browser-side JavaScript.
 
@@ -18,7 +18,14 @@ _(Coming soon)_
 _(Coming soon)_
 
 ## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+
+Clone and run the following demo:
+
+```bash
+ ./cli.js --url http://localhost:8000/index.html --output temp/
+```
+
+Now look in your `temp/` directory.
 
 ## Release History
 _(Nothing yet)_
