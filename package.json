@@ -1,7 +1,8 @@
 {
   "name": "pageshot",
-  "version": "0.1.0",
-  "main": "cli.js",
+  "version": "0.1.1",
+  "main": "lib/pageshot.js",
+  "bin": "cli.js",
   "description": "Take screenshots triggered by browser-side JavaScript.",
   "homepage": "https://github.com/Glavin001/pageshot",
   "bugs": "https://github.com/Glavin001/pageshot/issues",
@@ -16,7 +17,8 @@
   },
   "license": "MIT",
   "files": [
-    "lib"
+    "lib",
+    "cli.js"
   ],
   "keywords": [
     "phantom",
