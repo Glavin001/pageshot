@@ -5,25 +5,11 @@
 <body>
   <div id="timer"></div>
   <script>
-    window.onPageshotReady = function() {
-      console.log('Pageshot ready!');
-
       setInterval(function() {
         var el = document.getElementById('timer');
         var d = (new Date());
         el.innerHTML = d;
-
-        var name = d;
-        var allFormats = ['png','gif','jpeg','pdf'];  
-        var format = allFormats[Math.floor(Math.random() * allFormats.length)];
-        pageshot.shoot(name, format);
-      }, 1000);
-
-      setTimeout(function() {
-        pageshot.quit();
-      }, 10000);
-
-    };
+      });
   </script>
 </body>
 </html>

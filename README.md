@@ -22,7 +22,7 @@ _(Coming soon)_
 Clone and run the following demo:
 
 ```bash
- ./cli.js --url http://localhost:8000/index.html --output temp/
+./cli.js --url http://localhost:8000/index.html --conf test/index.js --output temp/
 ```
 
 Now look in your `temp/` directory.
