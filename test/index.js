@@ -11,11 +11,12 @@ setInterval(function() {
 
 setTimeout(function() {
 
-  pageshot.shoot('promises').then(function() {
+  pageshot.shoot('get ready to quit').then(function() {
     console.log('Success!');
     pageshot.quit();
   }, function() {
     console.log('Fail');
     pageshot.quit();
   });
-}, 5000);
+
+}, 5100);

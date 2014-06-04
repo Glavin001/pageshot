@@ -1,6 +1,6 @@
 {
   "name": "pageshot",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "cli.js",
   "description": "Take screenshots triggered by browser-side JavaScript.",
   "homepage": "https://github.com/Glavin001/pageshot",
@@ -18,7 +18,13 @@
   "files": [
     "lib"
   ],
-  "keywords": [],
+  "keywords": [
+    "phantom",
+    "pageres",
+    "screenshot",
+    "capture",
+    "render"
+  ],
   "devDependencies": {
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-nodeunit": "^0.3.3",
