@@ -21,11 +21,13 @@ npm install -g pageshot
 
   Options:
 
-    -h, --help      output usage information
-    -V, --version   output the version number
-    --url <url>     open URL
-    --conf <path>   inject configuration script.
-    --output <dir>  output directory
+    -h, --help         output usage information
+    -V, --version      output the version number
+    --url <url>        open URL
+    --conf <path>      inject configuration script.
+    --output <dir>     output directory
+    --width <pixels>   viewportSize width in pixels.
+    --height <pixels>  viewportSize height in pixels.
 ```
 
 ### Developer API

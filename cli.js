@@ -13,10 +13,19 @@ program
   .option('--url <url>', 'open URL')
   .option('--conf <path>', 'inject configuration script.')
   .option('--output <dir>', 'output directory')
+  .option('--width <pixels>', 'viewportSize width in pixels.')
+  .option('--height <pixels>', 'viewportSize height in pixels.')
   .parse(process.argv);
 
+var options = {
+  viewportSize: {
+    width: program.width || 480,
+    height: program.height || 800
+  }
+};
+
 // Start Pageshot
-var p = pageshot(program.url, program.conf, program.output);
+var p = pageshot(program.url, program.conf, program.output, options);
 
 // Print out live events
 p.on('didShoot', function(options, successful) {
